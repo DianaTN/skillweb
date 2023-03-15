@@ -1,0 +1,18 @@
+.bg-verde{
+    background-color:#e5fae9 ;
+}
+.listas {
+    list-style-type: none;
+}
+nav {
+    list-style: none;
+}
+li {
+    color: white;
+}
+.gris {
+    color: grey;
+}
+footer {
+    background-color: #6c757e;
+}
