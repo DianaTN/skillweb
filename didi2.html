@@ -1,0 +1,115 @@
+<li class="nav-item">
+    <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#modallogin">Login</a>
+</li>
+
+
+<div class="modal fade" id="modallogin" tabindex="-1" data-bs-keyboard="false" role="dialog"
+    aria-labelledby="modalTitleId" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-sm" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalTitleId">Iniciar sesion</h5>
+            </div>
+            <div class="modal-body">
+                <form>
+                    
+                    <div>
+                        <label for="exampleInputEmail1" class="form-label">Contraseña</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                </form>
+                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Entrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Body -->
+<!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
+<div class="modal fade" id="modalregistrate" tabindex="-1" data-bs-keyboard="false" role="dialog"
+    aria-labelledby="modalTitleId" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-sm" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalTitleId">Registrate</h5>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="mb-3">
+                        <label for="exampleInputUsuario1" class="form-label">Usuario</label>
+                        <input type="usuario" class="form-control" id="exampleInputUsuariol1"
+                            aria-describedby="emailHelp">
+
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Repetir Contraseña</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputDireccion1" class="form-label">Dirección</label>
+                        <input type="direccion" class="form-control" id="exampleInputDireccion1"
+                            aria-describedby="direccionHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputtelefono1" class="form-label">Teléfono</label>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Entrar</button>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Optional: Place to the bottom of scripts -->
+<script>
+    const myModal = new bootstrap.Modal(document.getElementById('modalId'), options)
+
+</script>
+
+
+<form>
+    <div class="mb-3"> 
+        <label for="exampleInputUsuario1" class="form-label">Usuario</label>
+        <input type="usuario" class="form-control" id="exampleInputUsuariol1" aria-describedby="emailHelp">
+
+    </div>
+    <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Contrasña</label>
+        <input type="password" class="form-control" id="exampleInputPassword1">
+    </div>
+    <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Repetir Contraseño</label>
+        <input type="password" class="form-control" id="exampleInputPassword1">
+    </div>
+    <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Email</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    </div>
+    <div class="mb-3">
+        <label for="exampleInputDireccion1" class="form-label">Dirección</label>
+        <input type="direccion" class="form-control" id="exampleInputDireccion1" aria-describedby="direccionHelp">
+    </div>
+    <div class="mb-3">
+        <label for="exampleInputtelefono1" class="form-label">Teléfono</label>
+    </div>
+
+   <!-- supuesto formulario de contacto--> 
+    <div class="mb-3">
+      <label for="" class="form-label">Email</label>
+      <input type="email" class="form-control" name="" id="" aria-describedby="emailHelpId" placeholder="abc@mail.com">
+      <small id="emailHelpId" class="form-text text-muted">Help text</small>
+    </div>
