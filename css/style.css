@@ -4,6 +4,9 @@
 .bg-verde{
     background-color:#e5fae9 ;
 }
+.bg-white{
+    background-color: white;
+}
 
 .bg-verde-main{
     background-color: #28a747;
@@ -47,4 +50,31 @@ align-items: center;
 }
 .justify-content-space-between{
     justify-content: space-between;
+}
+h1.boldnone{
+    font-weight: normal;
+}
+.bg-reptiles{
+    background-color: #f5f9fc;
+}
+.white {
+    color: white;
+}
+.text-decoration {
+    text-decoration: none;
+}
+.bg-verde{
+    background-color: #e5fae9;
+}
+.bg-verdeoscuro{
+    background-color: #708874;
+}
+.width-25{
+    width: 25%;
+}
+.width-75{
+    width: 75%;
+}
+li:hover{
+    color: white;
 }

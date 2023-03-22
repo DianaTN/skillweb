@@ -25,7 +25,7 @@
         <div class="collapse navbar-collapse" id="collapsibleNavId">
             <ul class="navbar-nav me-auto mt-2 mt-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active" href="#" aria-current="page">Inicio <span
+                    <a class="nav-link active" href="index.html" aria-current="page">Inicio <span
                             class="visually-hidden">(current)</span></a>
                 </li>
                 <li class="nav-item dropdown">
@@ -36,10 +36,11 @@
                         <a class="dropdown-item" href="#">Aves</a>
                         <a class="dropdown-item" href="#">Mamiferos</a>
                         <a class="dropdown-item" href="#">Peces</a>
-                        <a class="dropdown-item" href="#">Reptiles</a>
+                        <a class="dropdown-item" href="reptiles.html">Reptiles</a>
                     </div>
                     <a href="quienessomos.html">Quienes somos</a>
                     <a href="samu.html">Samu</a>
+                    <a href="alberto.html">Alberto</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#modallogin">Login</a>
@@ -51,7 +52,7 @@
         </div>
     </nav>
 
-    
+
     <div class="container">
         <!--Carousel-->
         <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
@@ -60,6 +61,8 @@
                     aria-label="First slide"></li>
                 <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide"></li>
                 <li data-bs-target="#carouselId" data-bs-slide-to="2" aria-label="Third slide"></li>
+                <li data-bs-target="#carouselId" data-bs-slide-to="3" aria-label="Fourth slide"></li>
+                <li data-bs-target="#carouselId" data-bs-slide-to="4" aria-label="Fifth slide"></li>
             </ol>
             <div class="carousel-inner" role="listbox">
                 <div class="carousel-item active">
@@ -88,7 +91,7 @@
             </button>
         </div>
 
-        
+
         <!--DIFERENTES TIPOS DE HACHES-->
         <h1 class="text-center">Catálogo de animales</h1>
         <h2 class="text-center mb-5">Los otros animales de la tierra</h2>
@@ -152,40 +155,76 @@
     </div>
 
 
-    <footer class="mt-3">
+    <footer>
         <div class="container">
-            <div class="row justify-content-space-between text-align-center">
-                <h1>CLM SKILLS WEB - 2021</h1>
-                <div class="listas row list-style-type text-align-center">
-                    <ul class="listas">
+            <h1 class="text-align-center">CLM SKILLS WEB - 2021</h1>
+            <div class="row justify-content-around">
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 me-12">
+
+
+                    <ul class="listas whie">
                         <input type="submit" value="Subir" class="subir btn">
                     </ul class="listas">
-                    <li><strong>
-                            <h3>Centros participantes</h3>
-                        </strong></li>
+
+                </div>
+
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 me-12">
+                    </ul class="listas">
+                    <strong>
+                        <h3>Centros participantes</h3>
+                    </strong>
                     <br>
-                    <li>I.E.S. Azarquiel</li>
-                    <li>I.E.S. Juan Bosco</li>
-                    <li>I.E.S. Maestre de Clatrava</li>
-                    <li>I.E.S. Virgen de Gracia</li>
-                    <li>I.E.S. Gregorio Prieto</li>
-                    <li>I.E.S. Pedro Mercedes</li>
-                    <li>I.E.S. Brianda de Mendoza</li>
-                    <li>I.E.S. Ribera del Tajo</li>
+                    <ul class="nav justify-content-center flex-column list-unstyled white">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">I.E.S. Azarquiel</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">I.E.S. Juan Bosco</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">I.E.S. Maestre de Clatrava</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">I.E.S. Virgen de Gracia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">I.E.S. Gregorio Prieto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">I.E.S. Pedro Mercedes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">I.E.S. Brianda de Mendoza</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">I.E.S. Ribera del Tajo</a>
+                        </li>
                     </ul>
+
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 me-12">
+
                     <ul class="listas">
                         <li>Quines somos</li>
                         <li>Privacidad</li>
-                        <li>Contacto</li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-bs-toggle="modal"
+                                data-bs-target="#modalcontacto">Contacto</a>
+                        </li>
                     </ul>
-                    <ul class="listas">
+
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 me-12">
+
+                    <ul class="listas white">
                         <input type="submit" value="Home" class="home btn">
                     </ul>
 
-
-                    <p>Catálogo de animales SIDAM - SIDAW</p>
                 </div>
             </div>
+
+            <p class="text-align-center">Catálogos de animales</p>
+
     </footer>
 
 
@@ -194,7 +233,7 @@
     <!-- MODAL DEL LOGIN -->
     <div class="modal fade" id="modallogin" tabindex="-1" data-bs-keyboard="false" role="dialog"
         aria-labelledby="modalTitleId" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-sm" role="document">
+        <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="modalTitleId">Iniciar sesion</h5>
@@ -220,7 +259,7 @@
 
     <div class="modal fade" id="modalregistrate" tabindex="-1" data-bs-keyboard="false" role="dialog"
         aria-labelledby="modalTitleId" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-sm" role="document">
+        <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="modalTitleId">Registrate</h5>
@@ -258,6 +297,37 @@
                         </div>
                         <button type="submit" class="btn btn-primary">Entrar</button>
                     </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalcontacto" tabindex="-1" data-bs-keyboard="false" role="dialog"
+        aria-labelledby="modalTitleId" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalTitleId">Escribe un comentario para contactar</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="mb-3">
+                        <label for="exampleInputUsuario1" class="form-label">Nombre</label>
+                        <input type="usuario" class="form-control" id="exampleInputUsuariol1"
+                            aria-describedby="emailHelp">
+
+                    </div>
+                    <div class="mb-3">
+                        <label for="" class="form-label">Tu E-mail</label>
+                        <input type="email" class="form-control" name="" id="" aria-describedby="emailHelpId"
+                            placeholder="abc@mail.com">
+                        <small id="emailHelpId" class="form-text text-muted">Help text</small>
+                    </div>
+                    <div class="mb-3">
+                        <label for="" class="form-label">Tu comentario</label>
+                        <textarea class="form-control" name="" id="" rows="3"></textarea>
+                    </div>
+
                 </div>
             </div>
         </div>
