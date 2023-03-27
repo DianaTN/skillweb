@@ -11,11 +11,51 @@
   <!-- Bootstrap CSS v5.2.1 -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" type="image/x-icon" href="favicon/iconoinfo.png">
 
 </head>
 
+
 <body>
-  
+
+  <!--Header-->
+  <nav class="navbar navbar-expand-md navbar-light bg-verde">
+    <a class="navbar-brand" href="index.html"><img src="logos/logo.png" alt="" width="100" class="img-fluid ms-2">
+    </a>
+    <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+        data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavId">
+        <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+                <a class="nav-link active" href="index.html" aria-current="page">Inicio <span
+                        class="visually-hidden">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">Selecciona categoría</a>
+                <div class="dropdown-menu" aria-labelledby="dropdownId">
+                    <a class="dropdown-item" href="#">Anfibios</a>
+                    <a class="dropdown-item" href="#">Aves</a>
+                    <a class="dropdown-item" href="#">Mamiferos</a>
+                    <a class="dropdown-item" href="#">Peces</a>
+                    <a class="dropdown-item" href="reptiles.html">Reptiles</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#modallogin">Login</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#modalregistrate">Registrate</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!--Cuerpo-->
 <div class="container">
     <h1 class="text-center">Quiénes somos</h1>
     <p><b>catalogodeanimales.es</b> es un medio digital independiente y liberal. Somos una redacción que trabaja para publicar información de animales, con rigor y
@@ -84,9 +124,373 @@
           
         </div>
       </div>
-  <footer>
-    <!-- place footer here -->
+  
+    <!---FOOTER--------------------------FOOTER--------------------------------FOOTER------------>
+    <footer class="mt-4">
+      <div class="container">
+          <h1 class="text-align-center">CLM SKILLS WEB - 2021</h1>
+          <div class="row justify-content-around">
+              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 me-12 align-items-start">
+
+
+                  <ul class="listas">
+                      <input type="submit" value="Subir" class="btn-success btn text-white">
+                  </ul class="listas">
+
+              </div>
+
+              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 me-12 align-items-center">
+                  </ul class="listas">
+                  <h6 class="text-center">Centros participantes</h6>
+                  <ul class="nav justify-content-center flex-column list-unstyled white text-center">
+                      <li class="nav-item">
+                          <a class="nav-link text-white text-decoration-none p-0" href="http://www.ies-azarquiel.es/" target="_blank">I.E.S. Azarquiel</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link text-white text-decoration-none p-0" href="http://www.iesjuanbosco.es/" target="_blank">I.E.S. Juan Bosco</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link text-white text-decoration-none p-0" href="http://iesmaestredecalatrava.es/" target="_blank">I.E.S. Maestre de
+                              Clatrava</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link text-white text-decoration-none p-0" href="https://cifpvirgendegracia.com/" target="_blank">I.E.S. Virgen de Gracia</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link text-white text-decoration-none p-0" href="http://www.iesgregorioprieto.com/" target="_blank">I.E.S. Gregorio Prieto</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link text-white text-decoration-none p-0" href="https://www.iespedromercedes.es/" target="_blank">I.E.S. Pedro Mercedes</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link text-white text-decoration-none p-0" href="http://briandademendoza.es/" target="_blank">I.E.S. Brianda de
+                              Mendoza</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link text-white text-decoration-none p-0" href="http://riberadeltajo.es/nuevaweb/" target="_blank">I.E.S. Ribera del Tajo</a>
+                      </li>
+                  </ul>
+
+              </div>
+              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 me-12">
+
+                  <ul class="listas text-center">
+                      <li><a href="quienessomos.html" class="text-white text-decoration-none">Quienes somos</a></li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#" data-bs-toggle="modal"
+                              data-bs-target="#modalprivacidad">Privacidad</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#" data-bs-toggle="modal"
+                              data-bs-target="#modalcontacto">Contacto</a>
+                      </li>
+                  </ul>
+
+              </div>
+              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 me-12 align-items-end">
+
+
+                  <ul class="d-flex flex-row-reverse">
+                      <input type="submit" value="Home" class="btn-success btn text-white align-items-end">
+                  </ul>
+
+              </div>
+          </div>
+
+          <p class="text-align-center mb-0">Catálogos de animales &copy; S1DAM - S1DAW</p>
+
   </footer>
+
+
+  <!-- MODALES -->
+
+  <!-- MODAL DEL LOGIN -->
+  <div class="modal fade" id="modallogin" tabindex="-1" data-bs-keyboard="false" role="dialog"
+      aria-labelledby="modalTitleId" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable  modal-sm" role="document">
+          <div class="modal-content">
+              <div class="modal-header border-bottom-0 bg-registrate justify-content-center">
+                  <h2 class="modal-title align-text-center" id="modalTitleId">Iniciar sesion</h2>
+              </div>
+              <div class="modal-body bg-registrate p-8 pb-3">
+                  <form>
+                      <div class="container">
+                          <div class="fieldset">
+                              <div>
+                                  <label for="exampleInputEmail1" class="form-label">Usuario</label>
+                                  <input type="email" class="form-control" id="exampleInputEmail1"
+                                      aria-describedby="emailHelp">
+                              </div>
+                              <div>
+                                  <label for="exampleInputContraseña1" class="form-label">Contraseña</label>
+                                  <input type="password" class="form-control" id="exampleInputContraseña1"
+                                      aria-describedby="emailHelp">
+                              </div>
+                              <br>
+                              <button type="button" class="btn btn-success text-white w-100"
+                                  data-bs-dismiss="modal">Entrar</button>
+                          </div>
+                      </div>
+                  </form>
+              </div>
+
+
+          </div>
+      </div>
+  </div>
+  </div>
+  <!--REGISTRATE-->
+  <div class="modal fade" id="modalregistrate" tabindex="-1" data-bs-keyboard="false" role="dialog"
+      aria-labelledby="modalTitleId" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-md" role="document">
+          <div class="modal-content">
+              <div class="modal-header bg-registrate pb-1 justify-content-center border-bottom-0">
+                  <h2 class="modal-title text-align-center" id="modalTitleId">Registro de usuario</h2>
+              </div>
+              <div class="modal-body bg-registrate pt-0 pb-3">
+                  <form>
+
+                      <div class="container">
+                          <fieldset class="fieldset">
+                              <div class="mb-3">
+                                  <label for="exampleInputUsuario1" class="form-label">Usuario</label>
+                                  <input type="usuario" class="form-control" id="exampleInputUsuariol1"
+                                      aria-describedby="emailHelp">
+
+                              </div>
+                              <div class="mb-3">
+                                  <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                                  <input type="password" class="form-control" id="exampleInputPassword1">
+                              </div>
+                              <div class="mb-3">
+                                  <label for="exampleInputPassword1" class="form-label">Repetir Contraseña</label>
+                                  <input type="password" class="form-control" id="exampleInputPassword1">
+                              </div>
+                              <div class="mb-3">
+                                  <label for="exampleInputEmail1" class="form-label">Email</label>
+                                  <input type="email" class="form-control" id="exampleInputEmail1"
+                                      aria-describedby="emailHelp">
+                              </div>
+                              <div class="mb-3">
+                                  <label for="exampleInputDireccion1" class="form-label">Dirección</label>
+                                  <input type="direccion" class="form-control" id="exampleInputDireccion1"
+                                      aria-describedby="direccionHelp">
+                              </div>
+                              <div class="mb-3">
+                                  <label for="exampleInputtelefono1" class="form-label">Teléfono</label>
+                                  <input type="telefono" class="form-control" id="exampleInputTelefono1"
+                                      aria-describedby="telefonoHelp">
+                              </div>
+                              <button type="submit" class="btn bg-verde-registrate w-100 text-white">Entrar</button>
+                          </fieldset>
+                      </div>
+
+                  </form>
+              </div>
+          </div>
+      </div>
+  </div>
+
+
+  <!--Contacto-->
+  <div class="modal fade" id="modalcontacto" tabindex="-1" data-bs-keyboard="false" role="dialog"
+      aria-labelledby="modalTitleId" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-lg" role="document">
+          <div class="modal-content">
+              <div class="modal-header bg-registrate pb-1 justify-content-center border-bottom-0">
+                  <h2 class="modal-title text-align-center" id="modalTitleId">Escribe un comentario para contactar
+                  </h2>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                  <form>
+                      <div class="container">
+                          <div class="fieldset">
+                              <div class="mb-3">
+                                  <label for="exampleInputUsuario1" class="form-label">Nombre</label>
+                                  <input type="usuario" class="form-control" id="exampleInputUsuariol1"
+                                      aria-describedby="emailHelp">
+
+                              </div>
+                              <div class="mb-3">
+                                  <label for="" class="form-label">Tu E-mail</label>
+                                  <input type="email" class="form-control" name="" id=""
+                                      aria-describedby="emailHelpId" placeholder="abc@mail.com">
+                              </div>
+                              <div class="mb-3">
+                                  <label for="" class="form-label">Tu comentario</label>
+                                  <textarea class="form-control" name="" id="" rows="3"></textarea>
+                              </div>
+                               <button type="submit" class="btn bg-verde-registrate w-100 text-white">Entrar</button>
+                          </div>
+
+                      </div>
+
+                  </form>
+
+
+              </div>
+          </div>
+      </div>
+  </div>
+
+
+  <!-- MODAL PRIVACIDAD -->
+
+  <div class="modal fade" id="modalprivacidad" tabindex="-1" data-bs-keyboard="false" role="dialog"
+      aria-labelledby="modalTitleId" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-lg" role="document">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h5 class="modal-title" id="modalTitleId">Privacidad</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                  <div>
+                      <h1>Términos y Condiciones de uso</h1>
+
+                      <h2> <strong>1. Datos generales</strong> </h2>
+                      <p> <strong>De acuerdo con el artículo 10 de la Ley 34/2002, de 11 de julio, de Servicios de la
+                              Sociedad
+                              de la Información y de Comercio Electrónico ponemos a su disposición los siguientes
+                              datos:</strong>
+                      </p>
+                      <p>catalogodeanimales.es está domiciliada en la calle Ronda S/N, con CIF B556677. Inscrita en el
+                          Registro Mercantil de Talavera de la Reina, Vol. xxxx, Folio xxxx, Hoja xxxx, Inscripción
+                          xxx.</p>
+
+                      <p> En la web catalogodeanimales.es hay una serie de contenidos de carácter informativo sobre
+                          animales, especies, y características. <strong> Su principal objetivo</strong> es facilitar
+                          a los clientes y
+                          al público en general, la información relativa a la empresa, a los productos y servicios que
+                          se ofrecen.</p>
+                      <h2> <strong>2. Política de privacidad</strong> </h2>
+                      <p>En cumplimiento de lo dispuesto en la <strong>Ley Orgánica 15/1999, de 13 de Diciembre, de
+                              Protección
+                              de Datos de Carácter Personal (LOPD)</strong> se informa al usuario que todos los datos
+                          que nos
+                          proporcione serán incorporados a un fichero, creado y mantenido bajo la responsabilidad de
+                          catalogodeanimales.es.</p>
+
+                      <p>Siempre <strong>se va a respetar la confidencialidad de sus datos personales</strong> que
+                          sólo serán
+                          utilizados con la finalidad de gestionar los servicios ofrecidos, atender a las solicitudes
+                          que nos plantee, realizar tareas administrativas, así como remitir información técnica,
+                          comercial o publicitaria por vía ordinaria o electrónica.</p>
+
+                      <p>Para ejercer sus derechos de oposición, rectificación o cancelación deberá dirigirse a la
+                          sede de la empresa C/Ronda S/N de Talavera de la Reina, escribirnos al siguiente correo
+                          contacto@catalogodeanimales.es o llámanos al 777888999.</p>
+                      <h2> <strong> 3. Condiciones de uso</strong></h2>
+                      <p> <strong>Las condiciones de acceso y uso del presente sitio web se rigen por la legalidad
+                              vigente y
+                              por el principio de buena fe</strong> comprometiéndose el usuario a realizar un buen uso
+                          de la web.
+                          No se permiten conductas que vayan contra la ley, los derechos o intereses de terceros.</p>
+
+                      <p>Ser usuario de la web de catalogodeanimales.es implica que reconoce haber leído y aceptado
+                          las presentes condiciones y lo que las extienda la normativa legal aplicable en esta
+                          materia. Si por el motivo que fuere no está de acuerdo con estas condiciones no continúe
+                          usando esta web.</p>
+
+                      <p>Cualquier tipo de notificación y/o reclamación solamente será válida por notificación escrita
+                          y/o correo certificado.</p>
+                      <h2> <strong>4. Responsabilidades</strong> </h2>
+                      <p> <strong>catalogodeanimales.es, no se hace responsable de la información y contenidos
+                              almacenados en
+                              foros, redes sociales o cualesquier otro medio</strong> que permita a terceros publicar
+                          contenidos de
+                          forma independiente en la página web del prestador.</p>
+
+                      <p>Sin embargo, teniendo en cuenta los art. 11 y 16 de la LSSI-CE, catalogodeanimales.es se
+                          compromete a la retirada o en su caso bloqueo de aquellos contenidos que pudieran afectar o
+                          contravenir la legislación nacional o internacional, derechos de terceros o la moral y el
+                          orden público.</p>
+
+                      <p> <strong>Tampoco la empresa se responsabilizará de los daños y perjuicios que se produzcan
+                              por fallos
+                              o malas configuraciones del software instalado en el ordenador del internauta</strong> .
+                          Se excluye
+                          toda responsabilidad por alguna incidencia técnica o fallo que se produzca cuando el usuario
+                          se conecte a internet. Igualmente no se garantiza la inexistencia de interrupciones o
+                          errores en el acceso al sitio web.</p>
+
+                      <p>Así mismo, <strong>catalogodeanimales.es se reserva el derecho a actualizar, modificar o
+                              eliminar la
+                              información contenida en su página web</strong> , así como la configuración o
+                          presentación del mismo,
+                          en cualquier momento sin asumir alguna responsabilidad por ello.</p>
+
+                      <p> Le comunicamos que cualquier precio que pueda ver en nuestra web será solamente orientativo.
+                          Si el usuario desea saber con exactitud el precio o si el producto en el momento actual
+                          cuenta con alguna oferta de la cual se puede beneficiar ha de acudir a alguna de las tiendas
+                          físicas con las que cuenta catalogodeanimales.es.</p>
+                      <h2> <strong>5. Propiedad intelectual e industrial</strong> .</h2>
+                      <p> <strong>catalogodeanimales.es es titular de todos los derechos sobre el software de la
+                              publicación
+                              digital así como de los derechos de propiedad industrial e intelectual referidos a los
+                              contenidos que se incluyan</strong> , a excepción de los derechos sobre productos y
+                          servicios de
+                          carácter público que no son propiedad de esta empresa.</p>
+
+                      <p> <strong> Ningún material publicado en esta web podrá ser reproducido, copiado o
+                              publicado</strong> sin el
+                          consentimiento por escrito de catalogodeanimales.es.</p>
+
+                      <p>Toda la información que se reciba en la web, como comentarios, sugerencias o ideas, se
+                          considerará cedida a catalogodeanimales.es de manera gratuita. No debe enviarse información
+                          que NO pueda ser tratada de este modo.</p>
+
+                      <p>Todos los productos y servicios de estas páginas que NO son propiedad de
+                          catalogodeanimales.es son marcas registradas de sus respectivos propietarios y son
+                          reconocidas como tales por nuestra empresa. Solamente aparecen en la web de
+                          catalogodeanimales.es a efectos de promoción y de recopilación de información. Estos
+                          propietarios pueden solicitar la modificación o eliminación de la información que les
+                          pertenece.</p>
+                      <h2> <strong>6. Política de cookies.</strong> </h2>
+
+                      <p> <strong>catalogodeanimales.es por su propia cuenta o la de un tercero contratado para
+                              prestación de
+                              servicios de medición, pueden utilizar cookies cuando el usuario navega por el sitio
+                              web. Las
+                              cookies son ficheros enviados al navegador por medio de un servicio web con la finalidad
+                              de
+                              registrar las actividades del usuario durante su tiempo de navegación.</strong> </p>
+
+                      <p>Las cookies utilizadas se asocian únicamente con un usuario anónimo y su ordenador, y no
+                          proporcionan por sí mismas los datos personales del usuario.
+                      </p>
+                      <p> <strong> Mediante el uso de las cookies resulta posible que el servidor donde se encuentra
+                              la web
+                              reconozca el navegador web utilizado por el usuario con la finalidad de que la
+                              navegación sea
+                              más sencilla.</strong> Se utilizan también para medir la audiencia y parámetros del
+                          tráfico, controlar el
+                          proceso y número de entradas.</p>
+
+                      <p> El usuario tiene la posibilidad de configurar su navegador para ser avisado de la recepción
+                          de
+                          cookies y para impedir su instalación en su equipo. Por favor consulte las instrucciones y
+                          manuales de su navegador para ampliar esta información.
+                      </p>
+                      <p> Para utilizar el sitio web no es necesario que el usuario permita la instalación de las
+                          cookies
+                          enviadas al sitio web, o el tercero que actúe en su nombre, sin perjuicio de que sea
+                          necesario
+                          que el usuario inicie una sesión tal en cada uno de los servicios cuya prestación requiera
+                          el
+                          previo registro</p> .
+
+                      <p>En todo caso <strong>las cookies tienen un carácter temporal</strong> con la única finalidad
+                          de hacer más eficaz
+                          su transmisión ulterior. En ningún caso se utilizará cookies para recoger información de
+                          carácter personal.</p>
+                      </p>
+                  </div>
+              </div>
+          </div>
+      </div>
+
   <!-- Bootstrap JavaScript Libraries -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
     integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
